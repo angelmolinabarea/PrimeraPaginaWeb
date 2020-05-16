@@ -1,0 +1,52 @@
+h1{
+    color: salmon;
+    text-align: center;
+    padding: 3px 10px;
+  border: rgb(114, 213, 226) 5px double;
+  margin-right: 600px;
+  margin-left: 600px;
+}
+img{
+    width: 400px;
+    height: 300px;
+    
+}
+#th1{
+    
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin-top: 200px;
+    width: 200px;
+    text-align: center;
+    
+}
+#div1{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+#images{
+    text-align: center;
+    margin-right: 200px;
+}
+#pimg{
+    text-align: center;
+}
+#div3{
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 0.8;
+    margin-left: 100px;
+    margin-right: 250px;
+}
