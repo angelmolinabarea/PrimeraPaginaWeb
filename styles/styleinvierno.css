@@ -21,7 +21,16 @@ img{
     margin-top: 200px;
     width: 200px;
     text-align: center;
-    
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+  color: rgb(6, 88, 13);
+  background-color: transparent;
+  text-decoration: none;
 }
 #div1{
     display: flex;

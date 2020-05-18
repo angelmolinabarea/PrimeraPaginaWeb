@@ -1,0 +1,77 @@
+ 
+
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(150, 199, 121);
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  opacity: 0.8;
+}
+
+/* Create two columns/boxes that floats next to each other */
+#nav1 {
+  float: left;
+  width: 12%;
+  height: 500px; /* only for demonstration, should be removed */
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: rgb(100, 161, 82);
+    opacity: 0.8;
+    width: 200px;
+    text-align: center;
+
+}
+a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+  color: rgb(0, 92, 23);
+  background-color: transparent;
+  text-decoration: none;
+}
+#nav2 {
+  float: right;
+  width: 17%;
+  height: 500px; /* only for demonstration, should be removed */
+  background: rgb(255, 255, 255);
+  padding: 20px;
+
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 63%;
+  background-color: #ffffff;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
