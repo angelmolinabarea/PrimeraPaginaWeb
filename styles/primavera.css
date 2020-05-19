@@ -19,7 +19,7 @@ header {
 #nav1 {
   float: left;
   width: 12%;
-  height: 500px; /* only for demonstration, should be removed */
+  height: 600px; /* only for demonstration, should be removed */
   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
@@ -28,6 +28,9 @@ header {
     width: 200px;
     text-align: center;
 
+}
+#p1{
+  text-align: center;
 }
 a:link {
     background-color: transparent;

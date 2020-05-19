@@ -1,6 +1,28 @@
 <head>
-    <title>CSS Template</title>
+    <title>Primavera</title>
 <link rel="stylesheet" href="../styles/primavera.css">
+<link rel="icon" type="image/jpg" href="../images/logo.jpg" />
+<script>
+  function myFunction() {
+      document.getElementById("demo").style.color = "red";       
+  }
+  function myFunction2() {
+      document.getElementById("demo2").style.color = "red";       
+  }
+  function myFunction3() {
+      document.getElementById("demo3").style.color = "red";       
+  }
+  function myFunction4() {
+      document.getElementById("demo4").style.color = "red";       
+  }
+  function myFunction5() {
+      document.getElementById("demo5").style.color = "red";       
+  }       
+  
+  function myFunction6() {
+      document.getElementById("demo6").style.color = "red";       
+  }  
+</script> 
 </head>
 <body>
 <header>
@@ -18,7 +40,17 @@
   
   <article>
     <h1></h1>
-    <p></p>
+    <p id="p1"><img src="../images/postre.jpg" alt="postre" height="300" width="400"></p>
+    <div id="div3">
+      <ul>
+          <p id="demo"><button type="button" onclick="myFunction()">X</button>1 plancha de hojaldre fresco</p>
+          <p id="demo2"><button type="button" onclick="myFunction2()">X</button>180 gramos de fresas o fresones (sin pedúnculo)</p>
+          <p id="demo3"><button type="button" onclick="myFunction3()">X</button>300 ml de agua tibia</p>
+          <p id="demo4"><button type="button" onclick="myFunction4()">X</button>170 gramos de kiwi (pelado)</p>
+          <p id="demo5"><button type="button" onclick="myFunction5()">X</button>100 gramos de azúcar</p>
+          <p id="demo6"><button type="button" onclick="myFunction6()">X</button>unas gotas de extracto de vainilla (opcional)</p>
+      </ul>
+</div>
   </article>
   <nav id="nav2">
     <iframe src="../src/iframe.html" height="500" width="300"></iframe>
