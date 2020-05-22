@@ -3,34 +3,8 @@
     <head>
         <link rel="stylesheet" href="../styles/styleverano.css">
         <link rel="icon" type="image/jpg" href="../images/logo.jpg" />
+        <script src="../JavaScript/verano.js"></script>
         <title>Recetas Angel</title>
-        <script>
-            function myFunction() {
-                if(document.getElementById("demo").innerHTML == "line-through" ){
-                    document.getElementById("demo").innerHTML= "none";
-                }else{
-                    document.getElementById("demo").innerHTML = "line-through";
-                }       
-            }
-            function myFunction2() {
-                if(document.getElementById("demo2").style.textDecoration == "line-through"){
-                    document.getElementById("demo2").style.textDecoration = "none";
-                }else{
-                    document.getElementById("demo2").style.textDecoration = "line-through";
-                }       
-            }
-            function myFunction3() {
-                if(document.getElementById("demo3").style.textDecoration == "line-through"){
-                    document.getElementById("demo3").style.textDecoration = "none";
-                }else{
-                    document.getElementById("demo3").style.textDecoration = "line-through";
-                }       
-            }
-             
-                
-            
-            
-            </script>
     </head>
     <body background="../images/playa.jpg">
         <h1><i>Mis Recetas</i></h1>
@@ -46,9 +20,9 @@
                     
                     <p><b>Alexander:</b> cóctel digestivo por las propiedades digestivas del coñac o brandy:</p>
                         <ul>
-                            <p><input type="checkbox"> 3 cl de coñac o brandy</p>
-                            <p><input type="checkbox"> 3 cl de crema de cacao</p>
-                            <p><input type="checkbox"> 3 cl de nata liquida</p>   
+                            <p id="demo"><button type="button" onclick="myFunction()">X</button> 3 cl de coñac o brandy</p>
+                            <p id="demo2"><button type="button" onclick="myFunction2()">X</button> 3 cl de crema de cacao</p>
+                            <p id="demo3"><button type="button" onclick="myFunction3()">X</button> 3 cl de nata liquida</p>   
                         </ul>
                         <p>Agitar y colar en un vaso frío de coctel. Espolvorear nuez moscada o canela por encima.</p>
                 </div></th>
