@@ -39,13 +39,14 @@ a:link {
     border: 1px solid rgb(0, 0, 0);
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
-    margin-left: 100px;
+    margin-left: 230px;
     margin-right: 250px;
     margin-bottom: 20px;
 }
 #images{
     text-align: center;
     margin-right: 200px;
+    margin-left: 200px;
 }
 #pimg{
     text-align: center;
@@ -56,6 +57,15 @@ a:link {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 1px solid rgb(0, 0, 0);
     opacity: 0.8;
-    margin-left: 100px;
+    margin-left: 230px;
     margin-right: 250px;
+}
+
+#div4{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    margin-right: 100px;
+    opacity: 0.9;
 }
