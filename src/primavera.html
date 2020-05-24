@@ -1,39 +1,60 @@
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
     <title>Primavera</title>
-<link rel="stylesheet" href="../styles/primavera.css">
-<link rel="icon" type="image/jpg" href="../images/logo.jpg" />
-<script src="../JavaScript/primavera.js"></script>
-</head>
-<body>
-<header>
-  <h2>Recetas Primavera</h2>
-</header>
+    <link rel="stylesheet" href="../styles/primavera.css">
+    <link rel="icon" type="image/jpg" href="../images/logo.jpg" />
+    <script src="../JavaScript/primavera.js"></script>
+  </head>
+  <body>
+    <header>
+      <table>
+        <tr>
+          <th id="cabeza"><h2>Recetas Primavera</h2></th>
+          <th>
+            <form action="../bienvenida/pagina_bienvenida.html">
+            <label for="email">email</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="password">contraseña</label><br>
+            <input type="password" id="password" name="password"><br>
+            <input type="submit" value="Enviar">
+            </form></th>
+        </tr>
+      </table>
+    </header>
 
-<section>
-  <nav id="nav1">
-      <a href="../index.html">Mis recetas</a><br><br>
-      <a href="verano.html">Recetas Verano</a><br><br>
-      <a href="invierno.html">Recetas Invierno</a><br><br>
-  </nav>
-  
-  <article>
-    <h1></h1>
-    <p id="p1"><img src="../images/postre.jpg" alt="postre" height="300" width="400"></p>
-    <div id="div3">
-      <ul>
-          <p id="demo"><button type="button" onclick="myFunction()">X</button>1 plancha de hojaldre fresco</p>
-          <p id="demo2"><button type="button" onclick="myFunction2()">X</button>180 gramos de fresas o fresones (sin pedúnculo)</p>
-          <p id="demo3"><button type="button" onclick="myFunction3()">X</button>300 ml de agua tibia</p>
-          <p id="demo4"><button type="button" onclick="myFunction4()">X</button>170 gramos de kiwi (pelado)</p>
-          <p id="demo5"><button type="button" onclick="myFunction5()">X</button>100 gramos de azúcar</p>
-          <p id="demo6"><button type="button" onclick="myFunction6()">X</button>unas gotas de extracto de vainilla (opcional)</p>
-      </ul>
-</div>
-  </article>
-  <nav id="nav2">
-    <iframe src="../src/iframe.html" height="500" width="300"></iframe>
-  </nav>
-</section>
+    <section>
+      <nav id="nav1">
+          <a href="../index.html">Mis recetas</a><br><br>
+          <a href="verano.html">Recetas Verano</a><br><br>
+          <a href="invierno.html">Recetas Invierno</a><br><br>
+      </nav>
+
+      <article>
+        <h1></h1>
+        <p id="p1"><img src="../images/postre.jpg" alt="postre" height="300" width="400"></p>
+        <div id="div3">
+          <ul>
+              <p id="demo"><button type="button" onclick="myFunction()">X</button>1 plancha de hojaldre fresco</p>
+              <p id="demo2"><button type="button" onclick="myFunction2()">X</button>180 gramos de fresas o fresones (sin pedúnculo)</p>
+              <p id="demo3"><button type="button" onclick="myFunction3()">X</button>300 ml de agua tibia</p>
+              <p id="demo4"><button type="button" onclick="myFunction4()">X</button>170 gramos de kiwi (pelado)</p>
+              <p id="demo5"><button type="button" onclick="myFunction5()">X</button>100 gramos de azúcar</p>
+              <p id="demo6"><button type="button" onclick="myFunction6()">X</button>unas gotas de extracto de vainilla (opcional)</p>
+          </ul><br><br>
+          <p>Como esta la receta? </p>
+              <form action="../valoraciones/valoracion_verano.html">
+              <label for="quantity">Valoracion de la receta:</label>
+              <input type="number" id="quantity" name="quantity" min="0" max="10" step="1" value="5">
+              <input type="submit" value="Submit">
+              </form>
+        </div></th>
+    </div>
+      </article>
+      <nav id="nav2">
+        <iframe src="../src/iframe.html" height="500" width="300"></iframe>
+      </nav>
+    </section>
 
 <footer>
   <p></p>
