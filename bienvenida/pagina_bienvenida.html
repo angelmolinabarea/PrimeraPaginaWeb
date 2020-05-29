@@ -11,10 +11,16 @@
       <table>
         <tr>
           <th id="cabeza"><h2>Recetas Primavera</h2></th>
-          <th><p>Bienvenido </p>
+          <th><p id="p1">Bienvenido </p>
         </tr>
       </table>
-    </header>
+    </header>     
+
+   <script>
+      var email = post['email'];
+      var result = email ? email : " de nuevo";
+      document.getElementById("p1").innerHTML= " Bienvenido " + result;
+  </script>
 
     <section>
       <nav id="nav1">
@@ -48,5 +54,14 @@
         <iframe src="../src/iframe.html" height="500" width="300"></iframe>
       </nav>
     </section>
+
+    <?php if($_POST) {
+      $vars = array();
+      foreach($_POST as $field => $value) {
+        array_push($vars,"$field:".json_encode($value));
+      }
+      echo "<script>var post = {".implode(", ",$vars)."}</script>\n"; 
+    }
+    ?>
 </body>
 </html>
