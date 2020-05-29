@@ -5,8 +5,13 @@
     </head>
     <body>
         <h1>Muchas Gracias por dejar una valoracion a la receta &#128151;</h1>
-        Su valoracion a sido de un : 
-        
+        <p id="p1">Su valoracion a sido de un : </p>
+        <script>
+            var url = window.location.href; 
+            var captured = /quantity=([^&]+)/.exec(url)[1]; // Value is in [1] ('384' in our case)
+            var result = captured ? captured : "No ha dejado valoracion";
+            document.getElementById("p1").innerHTML= "Su valoracion a sido de un : " + result;
+        </script>
     </body>
 
 </html>
